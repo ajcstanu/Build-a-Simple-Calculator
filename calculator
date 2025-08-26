@@ -1,8 +1,8 @@
 def add(a, b):
-    return a + b
+    return a + b  #add the number
 
 def subtract(a, b):
-    return a - b
+    return a - b  # subtract 
 
 def multiply(a, b):
     return a * b
@@ -12,8 +12,8 @@ def divide(a, b):
 
 def main():
     print("Simple Command-Line Calculator")
-    print("Operations: add, sub, mul, div")
-    print("Enter 'exit' to quit")
+    print("Operations: add, sub, mul, div") # help to the use what he want to do 
+    print("Enter 'exit' to quit") # to solve the issue and help to do work eassy 
     
     while True:
         operation = input("\nEnter operation (add, sub, mul, div) or 'exit' to quit: ").strip().lower()
